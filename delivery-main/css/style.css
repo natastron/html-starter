@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+.header{
+height: 124px;
+    border: 1px solid red;
+
+}
+.header-box{
+    border: 1px solid #000;
+    height: 100%;
+    display: flex; /*делает поведение блоков уникальным*/
+    align-items: center;/*текст по центру сверху и снизу отступы одинаковые*/
+    justify-content: space-between;/*элементы по краям контейнера слева и справа*/
+
+}
+.logo{
+max-width: 100px;
+max-height: 36px;
+}
+.logo img{
+   width: 100%; 
+}
+.footer{
+    height: 156px;
+}
+.footer-box{
+  border: 1px solid #000;
+    height: 100%;
+    display: flex; /*делает поведение блоков уникальным*/
+    align-items: center;/*текст по центру сверху и снизу отступы одинаковые*/
+    justify-content: space-between;/*элементы по краям контейнера слева и справа*/  
+
+}
+.footer-nav{
+    flex: 1;/*которое заставляет элемент растягиваться и занимать все доступное пространство. */
+}
+.body{
+    margin: 0; /*отступ за контейнером*/
+    padding: 0;/*отступ в контейнере*/
+}
+.main{
+
+}
+.container{
+    max-width: 1230px;
+    flex: center;
+    margin: 0px auto; /* auto делает так чтоб отступ слева и права были одинаковыми*/
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 100%;
+}
